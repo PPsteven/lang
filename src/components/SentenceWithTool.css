@@ -1,0 +1,45 @@
+  
+
+  .play-btn-icon:hover{
+        fill: #fff;
+        cursor: pointer;
+        visibility: visible;
+  }
+
+.sentence-tool {
+    width: 80vw;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 40px;
+    font-size: 16px;
+
+    .play-btn-icon{
+        margin-left: 10px;
+        margin-right: 10px;
+        visibility: visible;
+    }
+    
+    .seg-word {
+        border: 1px solid transparent;
+        border-radius: 3px;
+
+        &:hover {
+            cursor: pointer;
+            background-color: hsla(0, 0%, 100%, 0.33);
+        }
+
+        .pronunciation {
+            font-size: 0.75rem;
+            padding: 0 1.5px;
+        }
+
+        .word {
+            font-size: 1.2em;
+        }
+    }
+    
+    .trans {
+        font-size: 1.2em;
+    }
+}

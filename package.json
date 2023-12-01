@@ -9,11 +9,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@suid/icons-material": "^0.6.11",
+    "@suid/material": "^0.15.1",
+    "@suid/vite-plugin": "^0.1.5",
+    "axios": "^1.6.2",
+    "mitt": "^3.0.1",
     "solid-js": "^1.8.5"
   },
   "devDependencies": {
-    "typescript": "^5.2.2",
-    "vite": "^5.0.0",
+    "typescript": "^5.3.2",
+    "vite": "^5.0.2",
     "vite-plugin-solid": "^2.7.2"
   }
 }

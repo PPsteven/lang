@@ -5,7 +5,7 @@ import { createTheme, ThemeProvider } from "@suid/material/styles";
 import './App.css'
 
 import { purple } from "@suid/material/colors";
-import { TextRead } from '../components/TextRead';
+import { Lyrics } from '../pages/home/Lyrics';
 
 const theme = createTheme({
   palette: {
@@ -23,7 +23,7 @@ const theme = createTheme({
 const App = () => {
   return (
     <ThemeProvider theme={theme}>
-        <TextRead />    
+        <Lyrics />    
     </ThemeProvider>
   )
 }

@@ -1,30 +1,15 @@
 import { createSignal } from 'solid-js'
-import solidLogo from '../assets/solid.svg'
-import viteLogo from '/vite.svg'
-import { createTheme, ThemeProvider } from "@suid/material/styles";
+// import solidLogo from '../assets/solid.svg'
+// import viteLogo from '/vite.svg'
+// import { createTheme, ThemeProvider } from "@suid/material/styles";
 import './App.css'
 
-import { purple } from "@suid/material/colors";
-import { Lyrics } from '../pages/home/Lyrics';
+import { Player } from '../pages/home/Player';
 
-const theme = createTheme({
-  palette: {
-    primary: {
-      // Purple and green play nicely together.
-      main: purple[500],
-    },
-    secondary: {
-      // This is green.A700 as hex.
-      main: "#11cb5f",
-    },
-  },
-});
 
 const App = () => {
   return (
-    <ThemeProvider theme={theme}>
-        <Lyrics />    
-    </ThemeProvider>
+      <Player />    
   )
 }
 

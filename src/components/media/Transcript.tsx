@@ -52,10 +52,35 @@ export const Transcript = () => {
       translation: "Je vais bien, merci!",
       isSelected: false,
     },
+    {
+      raw: "He didn’t say any more but we’ve always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that",
+      translation: "Je vais bien, merci!",
+      isSelected: false,
+    },
+    {
+      raw: "He didn’t say any more but we’ve always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that",
+      translation: "Je vais bien, merci!",
+      isSelected: false,
+    },
+    {
+      raw: "He didn’t say any more but we’ve always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that",
+      translation: "Je vais bien, merci!",
+      isSelected: false,
+    },
+    {
+      raw: "He didn’t say any more but we’ve always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that",
+      translation: "Je vais bien, merci!",
+      isSelected: false,
+    },
+    {
+      raw: "He didn’t say any more but we’ve always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that",
+      translation: "Je vais bien, merci!",
+      isSelected: false,
+    },
   ];
   return (
-    <div class="flex flex-col gap-5 ml-4">
-      <div class="">
+    <div class="flex flex-col gap-5 ml-4 overflow-y-auto px-4">
+      <div class="max-h-full">
         {linesObj.map((v, idx) => {
           return <Line obj={v} />;
         })}

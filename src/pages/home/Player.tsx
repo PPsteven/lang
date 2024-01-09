@@ -1,14 +1,8 @@
 // TODO: replace to @
-import { MusicCard } from "../../components/MusicCard/MusicCard";
-import { Transcript } from "../../components/Transcript/Transcript";
+import { Player } from "../../components/media/Player";
 
-export const Player = () => {
+export const XXPlayer = () => {
   return (
-    <div class="flex flex-row gap-6 justify-end">
-      <div class="flex-none">
-        <MusicCard />
-      </div>
-      <Transcript />
-    </div>
+    <Player />
   );
 };

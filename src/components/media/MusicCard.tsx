@@ -1,12 +1,9 @@
 import { TbPlayerPauseFilled } from 'solid-icons/tb'
-import { TbPlayerPlayFilled } from 'solid-icons/tb'
 import { TbPlayerTrackNext } from 'solid-icons/tb'
 import { TbPlayerTrackPrev } from 'solid-icons/tb'
 import { TbPlayerSkipForward } from 'solid-icons/tb'
 import { TbPlayerSkipBack } from 'solid-icons/tb'
 
-import { HiOutlineBackward, HiOutlineForward } from "solid-icons/hi";
-import type { IconTypes } from "solid-icons";
 
 const Slider = () => {
   return (

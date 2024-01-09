@@ -13,10 +13,17 @@
     "@suid/material": "^0.15.1",
     "@suid/vite-plugin": "^0.1.5",
     "axios": "^1.6.2",
+    "classnames": "^2.5.1",
+    "howler": "^2.2.4",
     "mitt": "^3.0.1",
+    "solid-icons": "^1.1.0",
     "solid-js": "^1.8.5"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "daisyui": "^4.5.0",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0",
     "typescript": "^5.3.2",
     "vite": "^5.0.2",
     "vite-plugin-solid": "^2.7.2"

@@ -1,5 +1,5 @@
 import { Resp } from "../types/resp"
-import { bus} from "."
+import { bus } from "."
 
 // ?: 可选参数
 // <T> 泛型编程

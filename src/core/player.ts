@@ -119,6 +119,7 @@ export class Player {
       sound = data.howl = new Howl({
         src: [data.url],
         html5: true, // Force to HTML5 so that the audio can stream in (best for large files).
+        preload: true, // Download file to improve performance
         onplay() {
           self.resetInterval();
         },

@@ -79,7 +79,7 @@ export const Player = (props: PlayerProps) => {
         <AudioCard store={store} player={player} />
         <TransclationCard />
       </div>
-      <Transcript />
+      <Transcript seek={store.seek}/>
     </div>
   );
 };

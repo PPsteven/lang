@@ -1,8 +1,17 @@
 import { defineConfig } from 'vite'
 import solid from 'vite-plugin-solid'
+import devtools from 'solid-devtools/vite'
 
 export default defineConfig({
-  plugins: [solid()],
+  plugins: [
+    // NOTE: support solidjs dev tool
+    // Reference: https://github.com/thetarnav/solid-devtools/tree/main/packages/extension#getting-started
+    devtools({
+      /* features options - all disabled by default */
+      autoname: true, // e.g. enable autoname
+    }),
+    solid()
+  ],
 
   // Any requests to the /api path will be proxied to http://localhost:5000. 
   // For example, if you make an API request to /api/users while running the Vite development server, 
